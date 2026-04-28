@@ -4,7 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fit Station – Centro de Entrenamiento Premium</title>
+  <title>Fit Station – Gym y Centro de Entrenamiento Premium en Cardales, Buenos Aires</title>
+  <meta name="description"
+    content="Fit Station: el mejor gym y centro de entrenamiento premium en Buenos Aires. Boxeo, musculación, funcional, cross training, GAP y personal trainer. Resultados reales con entrenadores certificados." />
+  <meta name="keywords"
+    content="gym buenos aires, centro de entrenamiento, boxeo, musculación, funcional, cross training, personal trainer, fit station" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Fit Station – Gym Premium en Buenos Aires" />
+  <meta property="og:description"
+    content="Entrenamiento de élite en Buenos Aires. Boxeo, musculación, funcional, cross training y más. Transformá tu cuerpo con los mejores entrenadores." />
+  <meta property="og:type" content="website" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -68,7 +77,7 @@
       background:
         linear-gradient(to bottom, rgba(8, 8, 8, .05) 0%, rgba(8, 8, 8, .5) 45%, rgba(8, 8, 8, .92) 80%, #080808 100%),
         linear-gradient(135deg, rgba(232, 74, 12, .12) 0%, transparent 55%),
-        url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=1920&q=90&fit=crop&crop=focalpoint&fp-y=0.35') center/cover no-repeat;
+        url('https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?w=1920&q=90&fit=crop&crop=top') center/cover no-repeat;
       position: relative;
     }
 
@@ -698,33 +707,34 @@
     <div class="orb w-[400px] h-[400px] bottom-0 right-0" style="opacity:.6"></div>
 
     <!-- Live badge -->
-    <div class="absolute top-24 left-6 lg:left-12 flex items-center gap-2.5 ao">
+    <div class="absolute top-20 sm:top-24 left-6 lg:left-12 flex items-center gap-2.5 ao">
       <span class="live-dot w-2 h-2 rounded-full bg-brand block"></span>
-      <span class="text-brand text-[.7rem] font-bold uppercase tracking-[.25em]">Fit Station · Abierto ahora</span>
+      <span class="text-brand text-[.65rem] font-bold uppercase tracking-[.2em]">Abierto ahora</span>
     </div>
 
     <!-- Instagram handle -->
-    <div class="absolute top-24 right-6 lg:right-12 ao">
+    <div class="absolute top-20 sm:top-24 right-6 lg:right-12 ao">
       <a href="https://www.instagram.com/fit.station.ce/" target="_blank"
         class="text-white/25 hover:text-white/60 text-xs font-medium tracking-widest transition-colors">@fit.station.ce</a>
     </div>
 
     <!-- Main content -->
-    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-32 pb-20 lg:pb-24 w-full">
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-36 sm:pt-40 pb-20 lg:pb-24 w-full">
 
       <div class="label-line mb-8 ao">
         <span>Centro de Entrenamiento Premium</span>
       </div>
 
-      <h1 class="font-black leading-[.95] tracking-tighter mb-8" style="font-size: clamp(3.2rem, 8vw, 7.5rem);">
-        <div class="hero-word wd1"><span>NEXT</span></div><br />
-        <div class="hero-word wd2"><span class="stroke-brand">LEVEL</span></div><br />
-        <div class="hero-word wd3"><span>TRAINING</span></div>
+      <h1 class="font-black leading-[.92] tracking-tighter mb-8" style="font-size: clamp(2.4rem, 6.5vw, 6.8rem);">
+        <div class="hero-word wd1"><span>ENTRENÁ</span></div><br />
+        <div class="hero-word wd2"><span class="stroke-brand">SIN LÍMITES</span></div><br />
+        <div class="hero-word wd3"><span>EN CARDALES</span></div>
       </h1>
 
       <p class="text-white/45 text-base sm:text-lg max-w-md leading-relaxed mb-10 font-light ao d2">
-        Boxeo · Funcional · Cross Training · GAP · Musculación · Personal Trainer.<br />
-        Resultados reales. Entrenadores reales.
+        Gym premium en Cardales/Exaltación de la Cruz. Boxeo · Musculación · Funcional · Cross Training · GAP · Personal
+        Trainer.<br />
+        Transformá tu cuerpo con entrenadores certificados y resultados reales.
       </p>
 
       <div class="flex flex-wrap gap-4 ao d3">
@@ -740,20 +750,18 @@
       </div>
 
       <!-- Stats bar -->
-      <div class="mt-14 pt-8 border-t border-white/[.06] flex items-center gap-8 ao d4" style="max-width:380px">
+      <div class="mt-10 pt-6 border-t border-white/[.06] grid grid-cols-3 gap-4 ao d4 max-w-xs sm:max-w-sm">
         <div>
-          <p class="text-2xl font-black text-brand"><span class="counter" data-target="6">0</span>+</p>
-          <p class="text-white/30 text-[.7rem] uppercase tracking-wider mt-0.5">Disciplinas</p>
+          <p class="text-xl sm:text-2xl font-black text-brand"><span class="counter" data-target="6">0</span>+</p>
+          <p class="text-white/30 text-[.62rem] uppercase tracking-wider mt-0.5">Disciplinas</p>
         </div>
-        <div class="stat-sep self-stretch h-10 my-auto"></div>
-        <div>
-          <p class="text-2xl font-black text-white"><span class="counter" data-target="396">0</span></p>
-          <p class="text-white/30 text-[.7rem] uppercase tracking-wider mt-0.5">Comunidad</p>
+        <div class="border-l border-white/[.08] pl-4">
+          <p class="text-xl sm:text-2xl font-black text-white"><span class="counter" data-target="396">0</span></p>
+          <p class="text-white/30 text-[.62rem] uppercase tracking-wider mt-0.5">Comunidad</p>
         </div>
-        <div class="stat-sep self-stretch h-10 my-auto"></div>
-        <div>
-          <p class="text-2xl font-black text-white">100%</p>
-          <p class="text-white/30 text-[.7rem] uppercase tracking-wider mt-0.5">Compromiso</p>
+        <div class="border-l border-white/[.08] pl-4">
+          <p class="text-xl sm:text-2xl font-black text-white">100%</p>
+          <p class="text-white/30 text-[.62rem] uppercase tracking-wider mt-0.5">Compromiso</p>
         </div>
       </div>
     </div>
@@ -824,40 +832,43 @@
         <!-- Stats grid -->
         <div class="grid grid-cols-2 gap-3 ao d2">
           <div
-            class="bg-brand rounded-2xl p-8 flex flex-col justify-between min-h-48 relative overflow-hidden glow-brand spotlight"
+            class="bg-brand rounded-2xl p-5 sm:p-8 flex flex-col justify-between min-h-36 sm:min-h-48 relative overflow-hidden glow-brand spotlight"
             onmousemove="sp(event,this)" onmouseleave="spl(this)">
             <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-black/15 rounded-full"></div>
             <div class="absolute -top-8 -left-8 w-24 h-24 bg-white/5 rounded-full"></div>
-            <span class="text-white/60 text-[.7rem] uppercase tracking-widest font-bold">Disciplinas</span>
-            <p class="text-7xl font-black text-white leading-none"><span class="counter" data-target="6">0</span><span
-                class="text-3xl">+</span></p>
+            <span class="text-white/60 text-[.65rem] uppercase tracking-widest font-bold">Disciplinas</span>
+            <p class="text-5xl sm:text-7xl font-black text-white leading-none"><span class="counter"
+                data-target="6">0</span><span class="text-2xl sm:text-3xl">+</span></p>
           </div>
 
           <div
-            class="bg-ink-3 border border-white/[.04] rounded-2xl p-8 flex flex-col justify-between min-h-48 spotlight"
+            class="bg-ink-3 border border-white/[.04] rounded-2xl p-5 sm:p-8 flex flex-col justify-between min-h-36 sm:min-h-48 spotlight"
             onmousemove="sp(event,this)" onmouseleave="spl(this)">
-            <span class="text-white/35 text-[.7rem] uppercase tracking-widest font-bold">Comunidad</span>
-            <p class="text-7xl font-black text-white leading-none"><span class="counter" data-target="396">0</span></p>
+            <span class="text-white/35 text-[.65rem] uppercase tracking-widest font-bold">Comunidad</span>
+            <p class="text-5xl sm:text-7xl font-black text-white leading-none"><span class="counter"
+                data-target="396">0</span></p>
           </div>
 
           <div
-            class="bg-ink-3 border border-white/[.04] rounded-2xl p-8 flex flex-col justify-between min-h-48 spotlight"
+            class="bg-ink-3 border border-white/[.04] rounded-2xl p-5 sm:p-8 flex flex-col justify-between min-h-36 sm:min-h-48 spotlight"
             onmousemove="sp(event,this)" onmouseleave="spl(this)">
-            <span class="text-white/35 text-[.7rem] uppercase tracking-widest font-bold">Horarios</span>
+            <span class="text-white/35 text-[.65rem] uppercase tracking-widest font-bold">Horarios</span>
             <div>
-              <p class="text-4xl font-black text-white leading-none">6<span class="text-xl text-white/35">am</span></p>
-              <p class="text-white/20 text-xs my-1.5 font-light">a</p>
-              <p class="text-4xl font-black text-white leading-none">22<span class="text-xl text-white/35">hs</span></p>
+              <p class="text-3xl sm:text-4xl font-black text-white leading-none">6<span
+                  class="text-lg sm:text-xl text-white/35">am</span></p>
+              <p class="text-white/20 text-xs my-1 font-light">a</p>
+              <p class="text-3xl sm:text-4xl font-black text-white leading-none">22<span
+                  class="text-lg sm:text-xl text-white/35">hs</span></p>
             </div>
           </div>
 
           <div
-            class="bg-ink-3 border border-brand/15 rounded-2xl p-8 flex flex-col justify-between min-h-48 glow-border spotlight"
+            class="bg-ink-3 border border-brand/15 rounded-2xl p-5 sm:p-8 flex flex-col justify-between min-h-36 sm:min-h-48 glow-border spotlight"
             onmousemove="sp(event,this)" onmouseleave="spl(this)">
-            <span class="text-brand text-[.7rem] uppercase tracking-widest font-bold">Compromiso</span>
+            <span class="text-brand text-[.65rem] uppercase tracking-widest font-bold">Compromiso</span>
             <div>
-              <p class="text-6xl font-black text-white leading-none">100</p>
-              <p class="text-brand font-black text-2xl">%</p>
+              <p class="text-4xl sm:text-6xl font-black text-white leading-none">100</p>
+              <p class="text-brand font-black text-xl sm:text-2xl">%</p>
             </div>
           </div>
         </div>
@@ -1310,13 +1321,46 @@
 
   <!-- ══════════════ NUESTRO AMBIENTE ══════════════ -->
   <section id="ambiente" class="overflow-hidden">
-    <div class="relative">
+    <!-- Mobile: stacked layout -->
+    <div class="lg:hidden">
+      <div class="grid grid-cols-2 h-64 sm:h-80">
+        <div class="img-zoom">
+          <img src="assets/instagram/post-1.jpg" alt="Gym" class="w-full h-full object-cover object-center" />
+        </div>
+        <div class="grid grid-rows-2">
+          <div class="img-zoom">
+            <img src="assets/instagram/post-4.jpg" alt="Gym" class="w-full h-full object-cover" />
+          </div>
+          <div class="img-zoom">
+            <img src="assets/instagram/post-3.jpg" alt="Gym" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+      <div class="bg-ink-2 px-6 py-12">
+        <div class="label-line mb-6 ao"><span>El espacio</span></div>
+        <h2 class="text-4xl font-black leading-none mb-5 ao d1">
+          EQUIPADO.<br />MOTIVADOR.<br /><span class="text-brand">TUYO.</span>
+        </h2>
+        <p class="text-white/45 text-sm leading-relaxed mb-7 ao d2">
+          Máquinas de primera línea, paredes que te hablan de disciplina y un ambiente donde cada sesión importa.
+        </p>
+        <a href="#contacto" class="btn-primary ao d3">
+          Venir a conocernos
+          <svg class="arr w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Desktop: overlay layout -->
+    <div class="relative hidden lg:block">
       <div class="absolute inset-0 z-10 flex items-center pointer-events-none">
-        <div class="w-full lg:w-1/2 h-full flex flex-col justify-center px-8 lg:px-20 py-20"
-          style="background: linear-gradient(to right, #080808 0%, rgba(8,8,8,.9) 60%, transparent 100%);">
+        <div class="w-1/2 h-full flex flex-col justify-center px-20 py-20"
+          style="background: linear-gradient(to right, #080808 0%, rgba(8,8,8,.88) 65%, transparent 100%);">
           <div class="pointer-events-auto">
             <div class="label-line mb-8 ao"><span>El espacio</span></div>
-            <h2 class="text-4xl sm:text-5xl font-black leading-none mb-6 ao d1">
+            <h2 class="text-5xl font-black leading-none mb-6 ao d1">
               EQUIPADO.<br />MOTIVADOR.<br /><span class="text-brand">TUYO.</span>
             </h2>
             <p class="text-white/45 text-sm leading-relaxed mb-8 max-w-sm ao d2">
@@ -1331,10 +1375,10 @@
           </div>
         </div>
       </div>
-
-      <div class="grid grid-cols-3 h-[520px] lg:h-[660px]">
+      <div class="grid grid-cols-3 h-[660px]">
         <div class="col-span-2 img-zoom">
-          <img src="assets/instagram/post-1.jpg" alt="Gym" class="w-full h-full object-cover object-center" />
+          <img src="assets/instagram/post-1.jpg" alt="Gym Fit Station"
+            class="w-full h-full object-cover object-center" />
         </div>
         <div class="grid grid-rows-2">
           <div class="img-zoom">
@@ -1366,33 +1410,61 @@
         </a>
       </div>
 
-      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 ao">
-        <div class="gal-item rounded-2xl lg:col-span-2 lg:row-span-2 aspect-square"
-          onclick="openLb('assets/instagram/post-1.jpg')">
+      <!-- Mobile: simple 2-col grid -->
+      <div class="grid grid-cols-2 gap-3 lg:hidden ao">
+        <div class="gal-item rounded-xl col-span-2 aspect-video" onclick="openLb('assets/instagram/post-1.jpg')">
           <img src="assets/instagram/post-1.jpg" alt="" class="w-full h-full object-cover" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold uppercase tracking-widest">01</span></div>
         </div>
-        <div class="gal-item rounded-2xl aspect-square" onclick="openLb('assets/instagram/post-2.jpg')">
+        <div class="gal-item rounded-xl aspect-square" onclick="openLb('assets/instagram/post-2.jpg')">
           <img src="assets/instagram/post-2.jpg" alt="" class="w-full h-full object-cover" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold">02</span></div>
         </div>
-        <div class="gal-item rounded-2xl aspect-square" onclick="openLb('assets/instagram/post-3.jpg')">
+        <div class="gal-item rounded-xl aspect-square" onclick="openLb('assets/instagram/post-3.jpg')">
           <img src="assets/instagram/post-3.jpg" alt="" class="w-full h-full object-cover" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold">03</span></div>
         </div>
-        <div class="gal-item rounded-2xl aspect-square" onclick="openLb('assets/instagram/post-4.jpg')">
+        <div class="gal-item rounded-xl aspect-square" onclick="openLb('assets/instagram/post-4.jpg')">
           <img src="assets/instagram/post-4.jpg" alt="" class="w-full h-full object-cover" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold">04</span></div>
         </div>
-        <div class="gal-item rounded-2xl aspect-square" onclick="openLb('assets/instagram/post-5.jpg')">
+        <div class="gal-item rounded-xl aspect-square" onclick="openLb('assets/instagram/post-5.jpg')">
           <img src="assets/instagram/post-5.jpg" alt="" class="w-full h-full object-cover" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold">05</span></div>
         </div>
-        <div class="gal-item rounded-2xl aspect-square" onclick="openLb('assets/instagram/post-6.jpg')">
+        <div class="gal-item rounded-xl col-span-2 aspect-video" onclick="openLb('assets/instagram/post-6.jpg')">
           <img src="assets/instagram/post-6.jpg" alt="" class="w-full h-full object-cover" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold">06</span></div>
         </div>
-        <div class="gal-item rounded-2xl aspect-square bg-white" onclick="openLb('assets/instagram/post-7.jpg')">
+      </div>
+
+      <!-- Desktop: mixed grid -->
+      <div class="hidden lg:grid grid-cols-4 gap-3 ao" style="grid-auto-rows:280px">
+        <div class="gal-item rounded-2xl col-span-2 row-span-2" onclick="openLb('assets/instagram/post-1.jpg')">
+          <img src="assets/instagram/post-1.jpg" alt="" class="w-full h-full object-cover" />
+          <div class="gal-overlay"><span class="text-brand text-xs font-bold uppercase tracking-widest">01</span></div>
+        </div>
+        <div class="gal-item rounded-2xl" onclick="openLb('assets/instagram/post-2.jpg')">
+          <img src="assets/instagram/post-2.jpg" alt="" class="w-full h-full object-cover" />
+          <div class="gal-overlay"><span class="text-brand text-xs font-bold">02</span></div>
+        </div>
+        <div class="gal-item rounded-2xl" onclick="openLb('assets/instagram/post-3.jpg')">
+          <img src="assets/instagram/post-3.jpg" alt="" class="w-full h-full object-cover" />
+          <div class="gal-overlay"><span class="text-brand text-xs font-bold">03</span></div>
+        </div>
+        <div class="gal-item rounded-2xl" onclick="openLb('assets/instagram/post-4.jpg')">
+          <img src="assets/instagram/post-4.jpg" alt="" class="w-full h-full object-cover" />
+          <div class="gal-overlay"><span class="text-brand text-xs font-bold">04</span></div>
+        </div>
+        <div class="gal-item rounded-2xl" onclick="openLb('assets/instagram/post-5.jpg')">
+          <img src="assets/instagram/post-5.jpg" alt="" class="w-full h-full object-cover" />
+          <div class="gal-overlay"><span class="text-brand text-xs font-bold">05</span></div>
+        </div>
+        <div class="gal-item rounded-2xl col-span-2" onclick="openLb('assets/instagram/post-6.jpg')">
+          <img src="assets/instagram/post-6.jpg" alt="" class="w-full h-full object-cover" />
+          <div class="gal-overlay"><span class="text-brand text-xs font-bold">06</span></div>
+        </div>
+        <div class="gal-item rounded-2xl bg-white" onclick="openLb('assets/instagram/post-7.jpg')">
           <img src="assets/instagram/post-7.jpg" alt="" class="w-full h-full object-contain p-4" />
           <div class="gal-overlay"><span class="text-brand text-xs font-bold">07</span></div>
         </div>
@@ -1433,30 +1505,33 @@
       <div class="label-line mb-6 ao"><span>Cuando entrás</span></div>
       <h2 class="text-4xl sm:text-5xl font-black mb-16 ao d1">Horarios</h2>
 
-      <div class="grid lg:grid-cols-3 gap-4">
-        <div class="bg-ink-3 border border-brand/20 rounded-2xl p-10 ao glow-border spotlight"
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-ink-3 border border-brand/20 rounded-2xl p-6 sm:p-10 ao glow-border spotlight"
           onmousemove="sp(event,this)" onmouseleave="spl(this)">
-          <p class="text-brand text-[.7rem] font-bold uppercase tracking-widest mb-8">Lunes a Viernes</p>
-          <p class="text-8xl font-black text-brand leading-none">6</p>
+          <p class="text-brand text-[.7rem] font-bold uppercase tracking-widest mb-6 sm:mb-8">Lunes a Viernes</p>
+          <p class="text-6xl sm:text-8xl font-black text-brand leading-none">6</p>
           <p class="text-white/20 text-sm my-2 font-light">hasta las</p>
-          <p class="text-8xl font-black text-white leading-none">22<span class="text-3xl text-white/20">hs</span></p>
-          <div class="mt-8 pt-6 border-t border-white/[.06]">
+          <p class="text-6xl sm:text-8xl font-black text-white leading-none">22<span
+              class="text-2xl sm:text-3xl text-white/20">hs</span></p>
+          <div class="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-white/[.06]">
             <p class="text-white/25 text-xs">16 hs de entrenamiento disponible</p>
           </div>
         </div>
 
-        <div class="bg-ink-3 border border-white/[.04] rounded-2xl p-10 ao d1 spotlight" onmousemove="sp(event,this)"
-          onmouseleave="spl(this)">
-          <p class="text-white/30 text-[.7rem] font-bold uppercase tracking-widest mb-8">Sábados y Feriados</p>
-          <p class="text-8xl font-black text-white/60 leading-none">8</p>
+        <div class="bg-ink-3 border border-white/[.04] rounded-2xl p-6 sm:p-10 ao d1 spotlight"
+          onmousemove="sp(event,this)" onmouseleave="spl(this)">
+          <p class="text-white/30 text-[.7rem] font-bold uppercase tracking-widest mb-6 sm:mb-8">Sábados y Feriados</p>
+          <p class="text-6xl sm:text-8xl font-black text-white/60 leading-none">8</p>
           <p class="text-white/20 text-sm my-2 font-light">hasta las</p>
-          <p class="text-8xl font-black text-white/60 leading-none">13<span class="text-3xl text-white/15">hs</span></p>
-          <div class="mt-8 pt-6 border-t border-white/[.06]">
+          <p class="text-6xl sm:text-8xl font-black text-white/60 leading-none">13<span
+              class="text-2xl sm:text-3xl text-white/15">hs</span></p>
+          <div class="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-white/[.06]">
             <p class="text-white/25 text-xs">5 hs de entrenamiento disponible</p>
           </div>
         </div>
 
-        <div class="bg-ink-3 border border-white/[.04] rounded-2xl p-10 opacity-30 ao d2">
+        <div
+          class="bg-ink-3 border border-white/[.04] rounded-2xl p-6 sm:p-10 opacity-30 ao d2 sm:col-span-2 lg:col-span-1">
           <p class="text-white/30 text-[.7rem] font-bold uppercase tracking-widest mb-8">Domingo</p>
           <div class="flex flex-col items-center justify-center h-48">
             <div class="w-14 h-14 rounded-full border border-white/10 flex items-center justify-center mb-4">
