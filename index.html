@@ -708,8 +708,8 @@
 
     <!-- Live badge -->
     <div class="absolute top-20 sm:top-24 left-6 lg:left-12 flex items-center gap-2.5 ao">
-      <span class="live-dot w-2 h-2 rounded-full bg-brand block"></span>
-      <span class="text-brand text-[.65rem] font-bold uppercase tracking-[.2em]">Abierto ahora</span>
+      <span id="status-dot" class="live-dot w-2 h-2 rounded-full bg-brand block"></span>
+      <span id="status-text" class="text-brand text-[.65rem] font-bold uppercase tracking-[.2em]">Fit Station</span>
     </div>
 
     <!-- Instagram handle -->
@@ -1698,6 +1698,47 @@
 
   <!-- ══════════════ SCRIPTS ══════════════ -->
   <script>
+    // Estado del gimnasio (horario Buenos Aires UTC-3)
+    (function() {
+      const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Argentina/Buenos_Aires' }));
+      const day  = now.getDay();   // 0=Dom, 1=Lun … 6=Sab
+      const hour = now.getHours();
+      const min  = now.getMinutes();
+      const time = hour + min / 60; // ej: 14.5 = 14:30
+
+      // Horarios: [abre, cierra]
+      const schedule = {
+        0: null,          // Domingo: cerrado
+        1: [6, 22],       // Lunes
+        2: [6, 22],       // Martes
+        3: [6, 22],       // Miércoles
+        4: [6, 22],       // Jueves
+        5: [6, 22],       // Viernes
+        6: [8, 13],       // Sábado
+      };
+
+      const hours = schedule[day];
+      const isOpen = hours !== null && time >= hours[0] && time < hours[1];
+
+      const dot  = document.getElementById('status-dot');
+      const text = document.getElementById('status-text');
+
+      if (isOpen) {
+        dot.className  = 'live-dot w-2 h-2 rounded-full bg-brand block';
+        text.className = 'text-brand text-[.65rem] font-bold uppercase tracking-[.2em]';
+        text.textContent = 'Fit Station · Abierto ahora';
+      } else {
+        dot.className  = 'w-2 h-2 rounded-full bg-white/20 block';
+        text.className = 'text-white/30 text-[.65rem] font-bold uppercase tracking-[.2em]';
+        const dayName = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'][day];
+        if (!hours) {
+          text.textContent = 'Fit Station · Cerrado hoy';
+        } else {
+          text.textContent = `Fit Station · Abre a las ${hours[0]}hs`;
+        }
+      }
+    })();
+
     // Navbar scroll
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => nav.classList.toggle('solid', window.scrollY > 50), { passive: true });
