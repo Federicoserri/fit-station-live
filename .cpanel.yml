@@ -3,7 +3,3 @@ deployment:
   tasks:
     - /bin/cp index.html /home/fedeserri/test2.fedeserri.com/
     - /bin/cp -r assets /home/fedeserri/test2.fedeserri.com/
-    - /bin/cp robots.txt /home/fedeserri/test2.fedeserri.com/
-    - /bin/cp sitemap.xml /home/fedeserri/test2.fedeserri.com/
-    - /bin/cp favicon.svg /home/fedeserri/test2.fedeserri.com/
-    - /bin/cp .htaccess /home/fedeserri/test2.fedeserri.com/
