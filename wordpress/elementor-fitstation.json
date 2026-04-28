@@ -1,0 +1,423 @@
+{
+  "version": "0.4",
+  "title": "Fit Station - Centro de Entrenamiento",
+  "type": "page",
+  "content": [
+    {
+      "id": "aa111111",
+      "elType": "section",
+      "_title": "Hero",
+      "settings": {
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=85&fit=crop",
+          "id": 0,
+          "alt": "Fit Station Gym"
+        },
+        "background_size": "cover",
+        "background_position": "center center",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(8,8,8,0.65)",
+        "height": "100vh",
+        "content_position": "bottom",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "80", "left": "60", "isLinked": false},
+        "custom_css": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'); body, body * { font-family: 'Inter', sans-serif !important; } body { background:#080808 !important; color:#fff !important; } .stroke-brand { -webkit-text-stroke: 2px #E84A0C; color: transparent; }"
+      },
+      "elements": [
+        {
+          "id": "aa111112",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "aa111113",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;align-items:center;gap:12px;margin-bottom:20px;'><div style='height:1px;width:40px;background:#E84A0C;flex-shrink:0;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.3em;'>Centro de Entrenamiento Premium</span></div>"
+              }
+            },
+            {
+              "id": "aa111114",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "NEXT<br><span style='-webkit-text-stroke:2px #E84A0C;color:transparent;'>LEVEL</span><br>TRAINING",
+                "header_size": "h1",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "vw", "size": 7},
+                "typography_font_size_tablet": {"unit": "vw", "size": 10},
+                "typography_font_size_mobile": {"unit": "vw", "size": 14},
+                "typography_font_weight": "900",
+                "typography_letter_spacing": {"unit": "px", "size": -2},
+                "typography_line_height": {"unit": "em", "size": 1},
+                "align": "left",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "aa111115",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color:rgba(255,255,255,0.5);font-size:16px;max-width:460px;line-height:1.7;font-weight:300;margin:0 0 28px;'>Boxeo · Funcional · Cross Training · GAP · Musculación · Personal Trainer.<br>Resultados reales. Entrenadores reales.</p>",
+                "text_color": "rgba(255,255,255,0.5)"
+              }
+            },
+            {
+              "id": "aa111116",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;flex-wrap:wrap;gap:14px;margin-bottom:40px;'><a href='#precios' style='display:inline-flex;align-items:center;gap:8px;background:#E84A0C;color:#fff;font-weight:900;font-size:14px;padding:14px 30px;border-radius:9999px;text-decoration:none;box-shadow:0 0 30px rgba(232,74,12,0.35);'>Ver precios &#8594;</a><a href='https://wa.me/5491124857866' target='_blank' style='display:inline-flex;align-items:center;gap:8px;border:1.5px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.7);font-weight:600;font-size:14px;padding:14px 30px;border-radius:9999px;text-decoration:none;'>Empezar hoy</a></div>"
+              }
+            },
+            {
+              "id": "aa111117",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='border-top:1px solid rgba(255,255,255,0.1);padding-top:28px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:400px;'><div><p style='font-size:22px;font-weight:900;color:#E84A0C;margin:0;'>6+</p><p style='color:rgba(255,255,255,0.35);font-size:10px;text-transform:uppercase;letter-spacing:0.1em;margin:4px 0 0;'>Disciplinas</p></div><div><p style='font-size:22px;font-weight:900;color:#fff;margin:0;'>396</p><p style='color:rgba(255,255,255,0.35);font-size:10px;text-transform:uppercase;letter-spacing:0.1em;margin:4px 0 0;'>Comunidad</p></div><div><p style='font-size:22px;font-weight:900;color:#fff;margin:0;'>100%</p><p style='color:rgba(255,255,255,0.35);font-size:10px;text-transform:uppercase;letter-spacing:0.1em;margin:4px 0 0;'>Compromiso</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "bb222222",
+      "elType": "section",
+      "_title": "Nosotros",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "bb222223",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "bb222224",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;align-items:center;gap:10px;margin-bottom:20px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Quiénes somos</span></div>"
+              }
+            },
+            {
+              "id": "bb222225",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "MÁS QUE UN GYM.<br><span style='color:#E84A0C;'>UNA MISIÓN.</span>",
+                "header_size": "h2",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 52},
+                "typography_font_size_tablet": {"unit": "px", "size": 40},
+                "typography_font_size_mobile": {"unit": "px", "size": 32},
+                "typography_font_weight": "900",
+                "typography_line_height": {"unit": "em", "size": 1},
+                "align": "left",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "28", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "bb222226",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color:rgba(255,255,255,0.55);line-height:1.7;margin:0 0 28px;'>Fit Station nació con una idea clara: crear un espacio donde cada persona pueda transformarse. No importa tu nivel. Lo que importa es que llegues y entrenes con propósito.</p>"
+              }
+            },
+            {
+              "id": "bb222227",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;flex-direction:column;gap:0;'><div style='display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.05);'><span style='width:6px;height:6px;border-radius:50%;background:#E84A0C;flex-shrink:0;'></span><span style='color:rgba(255,255,255,0.7);font-size:14px;font-weight:500;'>Entrenadores certificados y apasionados</span></div><div style='display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.05);'><span style='width:6px;height:6px;border-radius:50%;background:#E84A0C;flex-shrink:0;'></span><span style='color:rgba(255,255,255,0.7);font-size:14px;font-weight:500;'>Seguimiento personalizado desde el día uno</span></div><div style='display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.05);'><span style='width:6px;height:6px;border-radius:50%;background:#E84A0C;flex-shrink:0;'></span><span style='color:rgba(255,255,255,0.7);font-size:14px;font-weight:500;'>Ambiente motivador y comunidad real</span></div><div style='display:flex;align-items:center;gap:14px;padding:12px 0;'><span style='width:6px;height:6px;border-radius:50%;background:#E84A0C;flex-shrink:0;'></span><span style='color:rgba(255,255,255,0.7);font-size:14px;font-weight:500;'>Suplementos y tienda de nutrición deportiva</span></div></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bb222228",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "bb222229",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:grid;grid-template-columns:1fr 1fr;gap:16px;'><div style='background:#E84A0C;border-radius:16px;padding:32px;display:flex;flex-direction:column;justify-content:space-between;min-height:176px;position:relative;overflow:hidden;box-shadow:0 0 30px rgba(232,74,12,0.35);'><span style='color:rgba(255,255,255,0.6);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;'>Disciplinas</span><p style='font-size:72px;font-weight:900;color:#fff;margin:0;line-height:1;'>6<span style='font-size:28px;'>+</span></p></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:32px;display:flex;flex-direction:column;justify-content:space-between;min-height:176px;'><span style='color:rgba(255,255,255,0.4);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;'>Comunidad</span><p style='font-size:72px;font-weight:900;color:#fff;margin:0;line-height:1;'>396</p></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:32px;display:flex;flex-direction:column;justify-content:space-between;min-height:176px;'><span style='color:rgba(255,255,255,0.4);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;'>Horarios</span><div><p style='font-size:36px;font-weight:900;color:#fff;margin:0;line-height:1;'>6<span style='font-size:18px;color:rgba(255,255,255,0.4);'>am</span></p><p style='color:rgba(255,255,255,0.3);font-size:13px;margin:4px 0;'>a</p><p style='font-size:36px;font-weight:900;color:#fff;margin:0;line-height:1;'>22<span style='font-size:18px;color:rgba(255,255,255,0.4);'>hs</span></p></div></div><div style='background:#191919;border:1px solid rgba(232,74,12,0.2);border-radius:16px;padding:32px;display:flex;flex-direction:column;justify-content:space-between;min-height:176px;'><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;'>Compromiso</span><div><p style='font-size:60px;font-weight:900;color:#fff;margin:0;line-height:1;'>100</p><p style='color:#E84A0C;font-weight:900;font-size:24px;margin:0;'>%</p></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "cc333333",
+      "elType": "section",
+      "_title": "Servicios",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "cc333334",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "cc333335",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='servicios'><div style='display:flex;align-items:center;gap:10px;margin-bottom:20px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Lo que ofrecemos</span></div><div style='display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:64px;'><h2 style='font-size:clamp(36px,4vw,56px);font-weight:900;color:#fff;margin:0;line-height:1;'>NUESTRAS<br><span style='-webkit-text-stroke:1.5px #E84A0C;color:transparent;'>DISCIPLINAS</span></h2><p style='color:rgba(255,255,255,0.4);font-size:14px;line-height:1.6;max-width:340px;margin:0;'>Cada disciplina diseñada para llevarte al siguiente nivel. Elegís la tuya o combinás todas.</p></div><div style='border-top:1px solid rgba(255,255,255,0.06);'><div style='display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.06);'><div style='display:flex;align-items:center;gap:40px;'><span style='color:rgba(255,255,255,0.15);font-weight:900;font-size:18px;width:48px;'>01</span><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0;text-transform:uppercase;'>Boxeo</h3><p style='color:rgba(255,255,255,0.35);font-size:14px;margin:4px 0 0;'>Técnica · Potencia · Resistencia</p></div></div><span style='color:rgba(255,255,255,0.25);font-size:12px;text-transform:uppercase;letter-spacing:0.1em;'>3 clases x semana</span></div><div style='display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.06);'><div style='display:flex;align-items:center;gap:40px;'><span style='color:rgba(255,255,255,0.15);font-weight:900;font-size:18px;width:48px;'>02</span><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0;text-transform:uppercase;'>Funcional</h3><p style='color:rgba(255,255,255,0.35);font-size:14px;margin:4px 0 0;'>Fuerza · Movilidad · Rendimiento</p></div></div><span style='color:rgba(255,255,255,0.25);font-size:12px;text-transform:uppercase;letter-spacing:0.1em;'>3 clases x semana</span></div><div style='display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.06);'><div style='display:flex;align-items:center;gap:40px;'><span style='color:rgba(255,255,255,0.15);font-weight:900;font-size:18px;width:48px;'>03</span><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0;text-transform:uppercase;'>Cross Training</h3><p style='color:rgba(255,255,255,0.35);font-size:14px;margin:4px 0 0;'>Alta intensidad · Cuerpo completo</p></div></div><span style='color:rgba(255,255,255,0.25);font-size:12px;text-transform:uppercase;letter-spacing:0.1em;'>2 clases x semana</span></div><div style='display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.06);'><div style='display:flex;align-items:center;gap:40px;'><span style='color:rgba(255,255,255,0.15);font-weight:900;font-size:18px;width:48px;'>04</span><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0;text-transform:uppercase;'>GAP</h3><p style='color:rgba(255,255,255,0.35);font-size:14px;margin:4px 0 0;'>Glúteos · Abdomen · Piernas</p></div></div><span style='color:rgba(255,255,255,0.25);font-size:12px;text-transform:uppercase;letter-spacing:0.1em;'>2 clases x semana</span></div><div style='display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.06);'><div style='display:flex;align-items:center;gap:40px;'><span style='color:rgba(255,255,255,0.15);font-weight:900;font-size:18px;width:48px;'>05</span><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0;text-transform:uppercase;'>Musculación</h3><p style='color:rgba(255,255,255,0.35);font-size:14px;margin:4px 0 0;'>Sala de máquinas · Horario libre</p></div></div><span style='color:rgba(255,255,255,0.25);font-size:12px;text-transform:uppercase;letter-spacing:0.1em;'>Pase libre</span></div><div style='display:flex;align-items:center;justify-content:space-between;padding:28px 0;'><div style='display:flex;align-items:center;gap:40px;'><span style='color:rgba(255,255,255,0.15);font-weight:900;font-size:18px;width:48px;'>06</span><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0;text-transform:uppercase;'>Personal Trainer</h3><p style='color:rgba(255,255,255,0.35);font-size:14px;margin:4px 0 0;'>Entrenamiento 100% personalizado</p></div></div><span style='color:rgba(255,255,255,0.25);font-size:12px;text-transform:uppercase;letter-spacing:0.1em;'>A coordinar</span></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dd444444",
+      "elType": "section",
+      "_title": "Precios",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080808",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "dd444445",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "dd444446",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='precios'><div style='display:flex;align-items:center;gap:10px;margin-bottom:20px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Sin sorpresas</span></div><div style='display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:48px;'><h2 style='font-size:clamp(40px,4vw,64px);font-weight:900;color:#fff;margin:0;line-height:1;'>PRECIOS<br><span style='-webkit-text-stroke:1.5px #E84A0C;color:transparent;'>CLAROS.</span></h2><p style='color:rgba(255,255,255,0.4);font-size:14px;line-height:1.6;margin:0;'>Elegís tu disciplina y tu frecuencia. Sin letras chicas, sin contratos eternos.</p></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.06);border-radius:20px;padding:40px;margin-bottom:20px;'><div style='display:grid;grid-template-columns:1fr auto auto auto;gap:16px;align-items:center;'><div><p style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;margin:0 0 8px;'>Musculación</p><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0 0 6px;'>Acceso a sala de máquinas</h3><p style='color:rgba(255,255,255,0.4);font-size:13px;margin:0;'>Equipamiento completo · Horario libre · Sin turno previo</p></div><div style='background:#222;border-radius:14px;padding:20px 24px;text-align:center;min-width:140px;'><p style='color:rgba(255,255,255,0.4);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 6px;'>2x Semana</p><p style='font-size:26px;font-weight:900;color:#fff;margin:0;'>$47.000</p><p style='color:rgba(255,255,255,0.3);font-size:11px;margin:4px 0 0;'>mensual</p></div><div style='background:#E84A0C;border-radius:14px;padding:20px 24px;text-align:center;min-width:140px;position:relative;box-shadow:0 0 30px rgba(232,74,12,0.35);'><span style='position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:#fff;color:#E84A0C;font-size:9px;font-weight:900;padding:3px 10px;border-radius:99px;white-space:nowrap;text-transform:uppercase;'>Más elegido</span><p style='color:rgba(255,255,255,0.7);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 6px;'>3x Semana</p><p style='font-size:26px;font-weight:900;color:#fff;margin:0;'>$50.000</p><p style='color:rgba(255,255,255,0.6);font-size:11px;margin:4px 0 0;'>mensual</p></div><div style='background:#222;border-radius:14px;padding:20px 24px;text-align:center;min-width:140px;'><p style='color:rgba(255,255,255,0.4);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 6px;'>Pase libre</p><p style='font-size:26px;font-weight:900;color:#fff;margin:0;'>$55.000</p><p style='color:rgba(255,255,255,0.3);font-size:11px;margin:4px 0 0;'>mensual</p></div></div></div><div style='display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:20px;'><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:24px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;'><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;'>Boxeo</span><span style='color:rgba(255,255,255,0.25);font-size:11px;'>/ mes</span></div><p style='color:rgba(255,255,255,0.5);font-size:13px;margin:0 0 10px;'>3 clases x semana</p><p style='font-size:30px;font-weight:900;color:#fff;margin:0 0 16px;'>$50.000</p><a href='https://wa.me/5491124857866' target='_blank' style='color:#E84A0C;font-size:13px;font-weight:700;text-decoration:none;'>Consultar &#8594;</a></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:24px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;'><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;'>Funcional</span><span style='color:rgba(255,255,255,0.25);font-size:11px;'>/ mes</span></div><p style='color:rgba(255,255,255,0.5);font-size:13px;margin:0 0 10px;'>3 clases x semana</p><p style='font-size:30px;font-weight:900;color:#fff;margin:0 0 16px;'>$45.000</p><a href='https://wa.me/5491124857866' target='_blank' style='color:#E84A0C;font-size:13px;font-weight:700;text-decoration:none;'>Consultar &#8594;</a></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:24px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;'><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;'>Cross Training</span><span style='color:rgba(255,255,255,0.25);font-size:11px;'>/ mes</span></div><p style='color:rgba(255,255,255,0.5);font-size:13px;margin:0 0 10px;'>2 clases x semana</p><p style='font-size:30px;font-weight:900;color:#fff;margin:0 0 16px;'>$40.000</p><a href='https://wa.me/5491124857866' target='_blank' style='color:#E84A0C;font-size:13px;font-weight:700;text-decoration:none;'>Consultar &#8594;</a></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:24px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;'><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;'>GAP</span><span style='color:rgba(255,255,255,0.25);font-size:11px;'>/ mes</span></div><p style='color:rgba(255,255,255,0.5);font-size:13px;margin:0 0 10px;'>2 clases x semana</p><p style='font-size:30px;font-weight:900;color:#fff;margin:0 0 16px;'>$40.000</p><a href='https://wa.me/5491124857866' target='_blank' style='color:#E84A0C;font-size:13px;font-weight:700;text-decoration:none;'>Consultar &#8594;</a></div></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:24px 32px;display:flex;align-items:center;justify-content:space-between;'><p style='color:rgba(255,255,255,0.4);font-size:14px;margin:0;'>¿Querés combinar disciplinas o tenés dudas sobre los planes?</p><a href='https://wa.me/5491124857866' target='_blank' style='display:inline-flex;align-items:center;gap:8px;background:#E84A0C;color:#fff;font-weight:900;font-size:14px;padding:14px 28px;border-radius:9999px;text-decoration:none;white-space:nowrap;'>Hablar con un entrenador</a></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ee555555",
+      "elType": "section",
+      "_title": "Tarjetas de Regalo",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080808",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "ee555556",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ee555557",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='regalo'><div style='display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:12px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Regalá salud</span><div style='height:1px;width:32px;background:#E84A0C;'></div></div><h2 style='font-size:clamp(40px,5vw,72px);font-weight:900;color:#fff;text-align:center;margin:0 0 12px;line-height:1;'>TARJETAS<br><span style='-webkit-text-stroke:1.5px #E84A0C;color:transparent;'>DE REGALO</span></h2><p style='color:rgba(255,255,255,0.4);text-align:center;font-size:14px;margin:0 0 64px;'>El mejor regalo es la salud. Regalá una experiencia en Fit Station a quien más querés.</p><div style='display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;'><div><div style='background:linear-gradient(135deg,#E84A0C,#c43b08,#8a2905);border-radius:20px;padding:36px 40px;position:relative;overflow:hidden;'><div style='position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,0.03) 0,rgba(255,255,255,0.03) 1px,transparent 0,transparent 50%);background-size:20px 20px;'></div><div style='position:absolute;width:250px;height:250px;border-radius:50%;background:rgba(255,255,255,0.05);top:-60px;right:-60px;'></div><div style='position:relative;z-index:1;'><div style='display:flex;align-items:center;justify-content:space-between;margin-bottom:32px;'><div style='display:flex;align-items:center;gap:10px;'><div style='width:36px;height:36px;border-radius:50%;background:rgba(0,0,0,0.2);display:flex;align-items:center;justify-content:center;'><span style='color:#fff;font-weight:900;font-size:13px;'>FS</span></div><span style='color:#fff;font-weight:900;font-size:14px;'>FIT STATION</span></div><span style='color:rgba(255,255,255,0.6);font-size:11px;text-transform:uppercase;letter-spacing:0.15em;'>GIFT CARD</span></div><div><p style='color:rgba(255,255,255,0.6);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 6px;'>VALOR</p><p style='font-size:40px;font-weight:900;color:#fff;margin:0 0 12px;'>$50.000</p><p style='color:rgba(255,255,255,0.5);font-size:12px;margin:0;'>Canjeable en cualquier disciplina · Sin vencimiento</p></div></div></div><p style='color:rgba(255,255,255,0.2);font-size:11px;text-align:center;margin:12px 0 0;'>* Diseño ilustrativo — el valor lo elegís vos</p></div><div><h3 style='font-size:28px;font-weight:900;color:#fff;margin:0 0 12px;'>Regalá lo que <span style='color:#E84A0C;'>de verdad importa.</span></h3><p style='color:rgba(255,255,255,0.5);font-size:14px;line-height:1.7;margin:0 0 28px;'>Una tarjeta de regalo de Fit Station le da a esa persona especial la libertad de elegir su disciplina, su horario y su camino. El regalo perfecto para cumpleaños, fechas especiales o simplemente porque sí.</p><div style='display:flex;flex-direction:column;gap:16px;margin-bottom:32px;'><div style='display:flex;align-items:flex-start;gap:14px;'><div style='width:8px;height:8px;border-radius:50%;background:#E84A0C;flex-shrink:0;margin-top:5px;'></div><div><p style='color:#fff;font-weight:600;font-size:14px;margin:0;'>Valor a elección</p><p style='color:rgba(255,255,255,0.4);font-size:13px;margin:2px 0 0;'>Vos elegís el monto, desde $40.000</p></div></div><div style='display:flex;align-items:flex-start;gap:14px;'><div style='width:8px;height:8px;border-radius:50%;background:#E84A0C;flex-shrink:0;margin-top:5px;'></div><div><p style='color:#fff;font-weight:600;font-size:14px;margin:0;'>Sin vencimiento</p><p style='color:rgba(255,255,255,0.4);font-size:13px;margin:2px 0 0;'>La usan cuando quieran</p></div></div><div style='display:flex;align-items:flex-start;gap:14px;'><div style='width:8px;height:8px;border-radius:50%;background:#E84A0C;flex-shrink:0;margin-top:5px;'></div><div><p style='color:#fff;font-weight:600;font-size:14px;margin:0;'>Para cualquier disciplina</p><p style='color:rgba(255,255,255,0.4);font-size:13px;margin:2px 0 0;'>Boxeo, musculación, funcional y más</p></div></div></div><a href='https://wa.me/5491124857866?text=Hola%2C%20quiero%20comprar%20una%20tarjeta%20de%20regalo' target='_blank' style='display:inline-flex;align-items:center;gap:8px;background:#E84A0C;color:#fff;font-weight:900;font-size:14px;padding:16px 32px;border-radius:9999px;text-decoration:none;'>Conseguir mi tarjeta &#8594;</a></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ff666666",
+      "elType": "section",
+      "_title": "Tienda",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080808",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "ff666667",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ff666668",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='tienda'><div style='display:flex;align-items:center;gap:10px;margin-bottom:16px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Muy pronto</span></div><div style='display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:48px;'><h2 style='font-size:clamp(40px,4vw,60px);font-weight:900;color:#fff;margin:0;line-height:1;'>NUESTRA<br><span style='-webkit-text-stroke:1.5px #E84A0C;color:transparent;'>TIENDA</span></h2><p style='color:rgba(255,255,255,0.4);font-size:13px;line-height:1.6;max-width:260px;text-align:right;margin:0;'>Suplementos premium seleccionados por nuestros entrenadores. Tienda online muy pronto.</p></div><div style='display:grid;grid-template-columns:repeat(4,1fr);gap:16px;'><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;overflow:hidden;'><div style='height:176px;background:linear-gradient(135deg,rgba(232,74,12,0.1),#080808);display:flex;align-items:center;justify-content:center;position:relative;'><span style='color:rgba(255,255,255,0.07);font-weight:900;font-size:64px;'>P</span><div style='position:absolute;top:12px;right:12px;background:#E84A0C;color:#fff;font-size:9px;font-weight:900;padding:4px 10px;border-radius:99px;text-transform:uppercase;'>Pronto</div></div><div style='padding:20px;'><p style='color:#E84A0C;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 4px;'>Suplementos</p><h3 style='color:#fff;font-size:15px;font-weight:700;margin:0 0 4px;'>Proteínas</h3><p style='color:rgba(255,255,255,0.35);font-size:12px;margin:0;'>Whey, caseína, vegana</p></div></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;overflow:hidden;'><div style='height:176px;background:linear-gradient(135deg,rgba(232,74,12,0.2),#191919);display:flex;align-items:center;justify-content:center;position:relative;'><span style='color:rgba(232,74,12,0.4);font-weight:900;font-size:64px;'>Cr</span><div style='position:absolute;top:12px;right:12px;background:#E84A0C;color:#fff;font-size:9px;font-weight:900;padding:4px 10px;border-radius:99px;text-transform:uppercase;'>Pronto</div></div><div style='padding:20px;'><p style='color:#E84A0C;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 4px;'>Performance</p><h3 style='color:#fff;font-size:15px;font-weight:700;margin:0 0 4px;'>Creatinas</h3><p style='color:rgba(255,255,255,0.35);font-size:12px;margin:0;'>Monohidrato y avanzadas</p></div></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;overflow:hidden;'><div style='height:176px;background:linear-gradient(135deg,#222,rgba(232,74,12,0.1));display:flex;align-items:center;justify-content:center;position:relative;'><span style='color:rgba(255,255,255,0.08);font-weight:900;font-size:64px;'>&#937;</span><div style='position:absolute;top:12px;right:12px;background:#E84A0C;color:#fff;font-size:9px;font-weight:900;padding:4px 10px;border-radius:99px;text-transform:uppercase;'>Pronto</div></div><div style='padding:20px;'><p style='color:#E84A0C;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 4px;'>Salud</p><h3 style='color:#fff;font-size:15px;font-weight:700;margin:0 0 4px;'>Omega &amp; Vitaminas</h3><p style='color:rgba(255,255,255,0.35);font-size:12px;margin:0;'>Omega 3, multivitamínicos</p></div></div><div style='background:linear-gradient(135deg,#E84A0C,#c43b08);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px;text-align:center;position:relative;'><div style='position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,0.03) 0,rgba(255,255,255,0.03) 1px,transparent 0,transparent 50%);background-size:12px 12px;'></div><div style='position:relative;z-index:1;'><p style='color:#fff;font-weight:900;font-size:18px;margin:0 0 8px;'>Y más</p><p style='color:rgba(255,255,255,0.7);font-size:12px;margin:0 0 20px;'>Aminoácidos, pre-workout, accesorios...</p><a href='https://wa.me/5491124857866' target='_blank' style='display:inline-block;background:#fff;color:#E84A0C;font-weight:900;font-size:13px;padding:10px 20px;border-radius:99px;text-decoration:none;'>Consultar</a></div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "gg777777",
+      "elType": "section",
+      "_title": "Galería",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "gg777778",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "gg777779",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='galeria'><div style='display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:48px;'><div><div style='display:flex;align-items:center;gap:10px;margin-bottom:16px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Nuestro mundo</span></div><h2 style='font-size:clamp(36px,4vw,52px);font-weight:900;color:#fff;margin:0;'>Galería</h2></div><a href='https://www.instagram.com/fit.station.ce/' target='_blank' style='color:rgba(255,255,255,0.3);font-size:14px;font-weight:500;text-decoration:none;'>@fit.station.ce</a></div><div style='display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto auto;gap:12px;'><div style='grid-column:span 2;grid-row:span 2;border-radius:16px;overflow:hidden;aspect-ratio:1;background:#222;'><img src='https://placehold.co/600x600/191919/E84A0C?text=Foto+1' style='width:100%;height:100%;object-fit:cover;display:block;' alt='Galería 1' /></div><div style='border-radius:16px;overflow:hidden;aspect-ratio:1;background:#222;'><img src='https://placehold.co/300x300/191919/E84A0C?text=Foto+2' style='width:100%;height:100%;object-fit:cover;display:block;' alt='Galería 2' /></div><div style='border-radius:16px;overflow:hidden;aspect-ratio:1;background:#222;'><img src='https://placehold.co/300x300/191919/E84A0C?text=Foto+3' style='width:100%;height:100%;object-fit:cover;display:block;' alt='Galería 3' /></div><div style='border-radius:16px;overflow:hidden;aspect-ratio:1;background:#222;'><img src='https://placehold.co/300x300/191919/E84A0C?text=Foto+4' style='width:100%;height:100%;object-fit:cover;display:block;' alt='Galería 4' /></div><div style='border-radius:16px;overflow:hidden;aspect-ratio:1;background:#222;'><img src='https://placehold.co/300x300/191919/E84A0C?text=Foto+5' style='width:100%;height:100%;object-fit:cover;display:block;' alt='Galería 5' /></div></div><div style='text-align:center;margin-top:36px;'><a href='https://www.instagram.com/fit.station.ce/' target='_blank' style='display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.35);font-size:14px;font-weight:600;padding:12px 32px;border-radius:9999px;text-decoration:none;'>Seguinos en Instagram &#8599;</a></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "hh888888",
+      "elType": "section",
+      "_title": "Horarios",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080808",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "hh888889",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hh888890",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='horarios'><div style='display:flex;align-items:center;gap:10px;margin-bottom:16px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Cuando entrás</span></div><h2 style='font-size:clamp(36px,4vw,52px);font-weight:900;color:#fff;margin:0 0 56px;'>Horarios</h2><div style='display:grid;grid-template-columns:repeat(3,1fr);gap:20px;'><div style='background:#191919;border:1px solid rgba(232,74,12,0.3);border-radius:20px;padding:40px;box-shadow:inset 0 0 0 1px rgba(232,74,12,0.25),0 0 20px rgba(232,74,12,0.08);'><p style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;margin:0 0 32px;'>Lunes a Viernes</p><p style='font-size:80px;font-weight:900;color:#E84A0C;margin:0;line-height:1;'>6</p><p style='color:rgba(255,255,255,0.25);font-size:13px;margin:8px 0;'>hasta las</p><p style='font-size:80px;font-weight:900;color:#fff;margin:0;line-height:1;'>22<span style='font-size:28px;color:rgba(255,255,255,0.25);'>hs</span></p><div style='margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.06);'><p style='color:rgba(255,255,255,0.3);font-size:12px;margin:0;'>16 hs de entrenamiento disponible</p></div></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:20px;padding:40px;'><p style='color:rgba(255,255,255,0.35);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;margin:0 0 32px;'>Sábados y Feriados</p><p style='font-size:80px;font-weight:900;color:rgba(255,255,255,0.7);margin:0;line-height:1;'>8</p><p style='color:rgba(255,255,255,0.25);font-size:13px;margin:8px 0;'>hasta las</p><p style='font-size:80px;font-weight:900;color:rgba(255,255,255,0.7);margin:0;line-height:1;'>13<span style='font-size:28px;color:rgba(255,255,255,0.2);'>hs</span></p><div style='margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.06);'><p style='color:rgba(255,255,255,0.3);font-size:12px;margin:0;'>5 hs de entrenamiento disponible</p></div></div><div style='background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:20px;padding:40px;opacity:0.4;'><p style='color:rgba(255,255,255,0.35);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;margin:0 0 32px;'>Domingo</p><div style='display:flex;flex-direction:column;align-items:center;justify-content:center;height:192px;'><div style='width:56px;height:56px;border-radius:50%;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;'>&#8960;</div><p style='font-size:28px;font-weight:900;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:0.2em;margin:0;'>Cerrado</p></div><div style='margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.06);'><p style='color:rgba(255,255,255,0.2);font-size:12px;margin:0;'>Día de recuperación</p></div></div></div><p style='color:rgba(255,255,255,0.2);font-size:11px;text-align:center;margin-top:24px;'>* Horarios sujetos a cambio en fechas especiales. Consultá por WhatsApp.</p></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ii999999",
+      "elType": "section",
+      "_title": "CTA Band",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#E84A0C",
+        "padding": {"unit": "px", "top": "60", "right": "60", "bottom": "60", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "ii999990",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ii999991",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;'><div><p style='color:rgba(255,255,255,0.6);font-size:14px;font-weight:500;margin:0 0 8px;'>¿Todavía no empezaste?</p><h2 style='font-size:clamp(28px,3vw,40px);font-weight:900;color:#fff;margin:0;'>El mejor momento es ahora.</h2></div><a href='https://wa.me/5491124857866' target='_blank' style='display:inline-flex;align-items:center;gap:8px;background:#fff;color:#E84A0C;font-weight:900;font-size:15px;padding:18px 36px;border-radius:9999px;text-decoration:none;flex-shrink:0;'>Empezar hoy &#8594;</a></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "jj000000",
+      "elType": "section",
+      "_title": "Contacto",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080808",
+        "padding": {"unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "jj000001",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "jj000002",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div id='contacto'><div style='display:flex;align-items:center;gap:10px;margin-bottom:16px;'><div style='height:1px;width:32px;background:#E84A0C;'></div><span style='color:#E84A0C;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.2em;'>Encontranos</span></div><h2 style='font-size:clamp(36px,4vw,52px);font-weight:900;color:#fff;margin:0 0 48px;'>Contacto</h2><div style='display:grid;grid-template-columns:repeat(3,1fr);gap:16px;'><a href='https://wa.me/5491124857866' target='_blank' style='display:flex;align-items:center;gap:20px;background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:32px;text-decoration:none;transition:border-color 0.2s;'><div style='width:48px;height:48px;border-radius:12px;background:rgba(34,197,94,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;'><svg width='22' height='22' fill='#4ade80' viewBox='0 0 24 24'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.855L.057 23.5l5.797-1.522A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.843 0-3.566-.477-5.063-1.311l-.363-.215-3.439.901.923-3.35-.236-.376A9.944 9.944 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/></svg></div><div style='flex:1;'><p style='color:rgba(255,255,255,0.35);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 4px;'>WhatsApp</p><p style='color:#fff;font-weight:700;font-size:15px;margin:0 0 2px;'>+54 9 11 2485-7866</p><p style='color:rgba(255,255,255,0.35);font-size:12px;margin:0;'>Escribinos ahora</p></div></a><a href='https://www.instagram.com/fit.station.ce/' target='_blank' style='display:flex;align-items:center;gap:20px;background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:32px;text-decoration:none;'><div style='width:48px;height:48px;border-radius:12px;background:rgba(236,72,153,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;'><svg width='22' height='22' fill='#f472b6' viewBox='0 0 24 24'><path d='M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z'/></svg></div><div style='flex:1;'><p style='color:rgba(255,255,255,0.35);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 4px;'>Instagram</p><p style='color:#fff;font-weight:700;font-size:15px;margin:0 0 2px;'>@fit.station.ce</p><p style='color:rgba(255,255,255,0.35);font-size:12px;margin:0;'>396 seguidores</p></div></a><a href='https://maps.app.goo.gl/Sm5x1WjkrnTGbR6J8' target='_blank' style='display:flex;align-items:center;gap:20px;background:#191919;border:1px solid rgba(255,255,255,0.05);border-radius:16px;padding:32px;text-decoration:none;'><div style='width:48px;height:48px;border-radius:12px;background:rgba(232,74,12,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;'><svg width='22' height='22' fill='none' stroke='#E84A0C' stroke-width='2' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' d='M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z'/><path stroke-linecap='round' stroke-linejoin='round' d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'/></svg></div><div style='flex:1;'><p style='color:rgba(255,255,255,0.35);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 4px;'>Ubicación</p><p style='color:#fff;font-weight:700;font-size:15px;margin:0 0 2px;'>Ver en Google Maps</p><p style='color:rgba(255,255,255,0.35);font-size:12px;margin:0;'>Tocá para abrir el mapa</p></div></a></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "kk111111",
+      "elType": "section",
+      "_title": "Footer",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080808",
+        "border_border": "solid",
+        "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+        "border_color": "rgba(255,255,255,0.05)",
+        "padding": {"unit": "px", "top": "48", "right": "60", "bottom": "48", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "kk111112",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "kk111113",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;margin-bottom:32px;'><div style='display:flex;align-items:center;gap:12px;'><div style='width:36px;height:36px;border-radius:50%;background:#E84A0C;display:flex;align-items:center;justify-content:center;'><span style='color:#fff;font-weight:900;font-size:12px;'>FS</span></div><div><p style='font-weight:900;color:#fff;margin:0;line-height:1;'><span style='color:#E84A0C;'>FIT</span> STATION</p><p style='color:rgba(255,255,255,0.25);font-size:11px;margin:2px 0 0;'>Centro de Entrenamiento</p></div></div><nav style='display:flex;flex-wrap:wrap;gap:20px;'><a href='#nosotros' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Nosotros</a><a href='#servicios' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Servicios</a><a href='#precios' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Precios</a><a href='#tienda' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Tienda</a><a href='#galeria' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Galería</a><a href='#horarios' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Horarios</a><a href='#contacto' style='color:rgba(255,255,255,0.25);font-size:12px;text-decoration:none;'>Contacto</a></nav><div style='display:flex;gap:10px;'><a href='https://www.instagram.com/fit.station.ce/' target='_blank' style='width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;text-decoration:none;color:rgba(255,255,255,0.25);font-size:13px;'>IG</a><a href='https://wa.me/5491124857866' target='_blank' style='width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;text-decoration:none;color:rgba(255,255,255,0.25);font-size:13px;'>WA</a></div></div><div style='border-top:1px solid rgba(255,255,255,0.05);padding-top:24px;text-align:center;'><p style='color:rgba(255,255,255,0.15);font-size:12px;margin:0;'>© 2025 Fit Station Centro de Entrenamiento · Todos los derechos reservados</p></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
