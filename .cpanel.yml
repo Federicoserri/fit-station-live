@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fedeserri/test2.fedeserri.com/
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
