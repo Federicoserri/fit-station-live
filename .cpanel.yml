@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/cp index.html /home/fedeserri/test2.fedeserri.com/
-    - /bin/cp -r assets /home/fedeserri/test2.fedeserri.com/
